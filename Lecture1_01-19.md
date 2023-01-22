@@ -28,7 +28,7 @@ In this paradigm, a program is a mathematical function. In this context, a funct
 
 Example program (F#):
 
-````
+````F#
     // procedural
     let add2 a = a+2
     let multiply3 a = a * 3
