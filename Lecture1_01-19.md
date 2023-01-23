@@ -58,8 +58,3 @@ This paradigm uses a set of facts and a set of rules to answer queries.
 **Question**: So what programming paradigm is the best?  
 **Answer**: It depends! There is no such thing as an absolute best paradigm. Each paradigm has a unique set of benefits and drawbacks, so which is best depends on the context and the problem to be solved.
 
-
-
-
-
-
