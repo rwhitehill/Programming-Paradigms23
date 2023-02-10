@@ -6,6 +6,7 @@ public class Mortgage_Report {
     private final static byte MONTHS_IN_YEAR = 12;
     private final static byte PERCENT = 100;
     
+    // function to print total mortgage
     public static void printMortgage(Mortgage obj) {
         Mortgage_Calculator mortgage_calculator = new Mortgage_Calculator();
         String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage_calculator.calculateMortgage(obj));
@@ -15,6 +16,8 @@ public class Mortgage_Report {
         System.out.println("Monthly Payments: " + mortgageFormatted);
     }
 
+    // function to print schedule of remaining balance by month
+    // until no payment is left
     public static void printPaymentSchedule(Mortgage obj) {
         Mortgage_Calculator mortgage_calculator = new Mortgage_Calculator();
         System.out.println();
